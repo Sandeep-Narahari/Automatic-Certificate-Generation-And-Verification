@@ -130,8 +130,8 @@ MEDIA_URL = '/uploads/'
 
 EMAIL_HOST = "smtp.gmail.com" 
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'random1knd@gmail.com'
-EMAIL_HOST_PASSWORD = 'imblzsmuypusccbw'
+EMAIL_HOST_USER = 'User Email'
+EMAIL_HOST_PASSWORD = 'yourPassword'
 EMAIL_USE_TLS = True
 
 # Default primary key field type
