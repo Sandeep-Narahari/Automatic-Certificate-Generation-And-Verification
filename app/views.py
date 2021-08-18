@@ -156,7 +156,7 @@ def generate(request):
             email = EmailMessage(
             'Here is you certificate ',
             'Hi, this is your certificate for completing the course, you can verify this certificate using this unique ID: http://127.0.0.1:8000/verify/%s  '%uniqueId,
-            'random1knd@gmail.com',
+            'username@gmail.com',
             [mail[i]])
             email.attach_file('static/certificates/%s.jpg'%uniqueId)
             
